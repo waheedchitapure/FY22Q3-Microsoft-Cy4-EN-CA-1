@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+         Building Industry-Aware Analytics Solutions Using Azure Synapse Analytics
+      </title>
+      <!-- <link rel="stylesheet" href="msstyle.css"> -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+   <style>
+      .jumbotron {
+         width: 100%;
+         background: url('https://azurecomcdn.azureedge.net/cvt-2473f5032e6468d280c3866c486fb4b7f0f3420115e01433c1d715d5c9d4436a/less/images/section/resources-theme-default.jpg');
+         background-color: black;
+         /* background-size: cover;*/
+         /*height: 200px;*/
+         /* background-image: 'Business_Leaders_Guide_to_Cultivating_Innovation_BG.png'; */
+      }
+
+      #logo {
+         /* width: 20%;*/
+         margin-left: 5%;
+      }
+
+      .title {
+         color: white;
+      }
+
+      /* input{
+   width: 100%;
+   } */
+      p,
+      ul {
+         font-size: 18px;
+         line-height: 27px;
+         margin-bottom: 19px;
+         color: #666;
+         font-weight: 400;
+         margin-top: px;
+         /*margin-left: 70px;*/
+         font-family: Segoe UI, Segoe UI Semilight, Segoe UI Light, Arial, Sans-Serif;
+      }
+
+      /* @media (min-width: 992px) {
+   .mrt {
+   margin-top: -100px;
+   }
+   }*/
+   </style>
+
+   <body>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="logo">
+                  <img class="logo mt-2 mb-2" id="logo" src="./logo.png" alt="MicrosoftAzure-logo"
+                     style=" padding-top: 10px; padding-bottom: 10px;width: 10%;">
+               </div>
+               <div class="bg">
+                  <div class="jumbotron">
+                     <h4 class="text-white">
+                        Building Industry-Aware Analytics Solutions Using Azure Synapse Analytics
+                     </h4>
+                     <br>
+                    
+                     </h5> -->
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <br>
+               <div class="abstract">
+                  
+                  <p>Published: 2021-11-30</p>
+                  <p>Learn to build flexible, insights-oriented analytics solutions that meet the unique needs of your
+                     industry and organization. Discover how to unify your data, move quickly, and embrace new business
+                     models with Azure Synapse Analytics.&nbsp;</p>
+                  <p>Read the e-book, <strong>Building Industry-Aware Analytics Solutions Using Azure Synapse
+                        Analytics</strong>, to:&nbsp;</p>
+                  <ul>
+                     <li>Learn how to accelerate development of analytics solutions using out-of-the-box,
+                        industry-specific database templates in Azure Synapse.</li>
+                     <li>Plan for a successful build-out of your solution architecture.</li>
+                     <li>Get step-by-step guidance on how to implement Azure Synapse.</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4 mrt" style="">
+               <div class="card" style="background-color:#F4F5F6;">
+                  <div class="card-body">
+                     <div class="card-title text-center">
+                        <h4 style=" text-align: left;">Hello,</h4>
+                        <h7 style=" text-align: left;float: left;">Tell us a little about yourself by filling in the form below.
+                        </h7>
+                        <h7 style="text-align: left;float: left;margin-bottom: 10px;">All fields marked with * are required
+                        </h7>
+                        <br>
+                     </div>
+                     <form action="sendmail.php" id="signup_form" method="post" class="validate" style="">
+                        <!--XXX ... DON'T CHANGE THIS CODE ... XXX-->
+                        <input type="hidden" name="camp_id" id="camp_id" value="FY22Q1" />
+                        <input type="hidden" name="camp_name" value="FY22Q3-Microsoft-Cy4" />
+                        <input type="hidden" name="asset_title"
+                           value="Building Industry-Aware Analytics Solutions Using Azure Synapse Analytics" />
+                        <div class="form-group">
+                           <!-- <label class="mktoLabel" for="fname">First name</label> -->
+                           <input type="text" name="fname" id="fname" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                           <!-- <label class="mktoLabel" for="lname">Last name </label> -->
+                           <input type="text" name="data[0]" id="lname" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                           <!-- <label class="mktoLabel" for="email">Email</label> -->
+                           <input type="email" name="data[1]" id="email" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                           <!--  <label class="mktoLabel" for="company">Company name</label> -->
+                           <input type="" name="data[2]" id="company" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Company name">
+                        </div>
+                        <div class="form-group">
+                            <label class="mktoLabel" for="Company_Size">Company size</label>
+                           <select type="text" name="data[3]" id="Company_Size" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Company size">
+                              <option value="" hidden="">Company size</option>
+                              <option value="10,000+">10,000+</option>
+                              <option value="1,000-9,999">1,000-9,999</option>
+                              <option value="250-999">250-999</option>
+                              <option value="100-249">100-249</option>
+                              <option value="50-99">50-99</option>
+                              <option value="25-49">25-49</option>
+                              <option value="10-24">10-24</option>
+                              <option value="5-9">5-9</option>
+                              <option value="2-4">2-4</option>
+                              <option value="1">1</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                             <label class="mktoLabel" for="Job Role">Job Role</label>
+                           <select type="text" name="data[4]" id="Job Role" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Job Role">
+                              <option value="" hidden="">Job Role</option>
+                              <option value="Owner">Owner</option>
+                              <option value="Chief Officer">Chief Officer</option>
+                              <option value="Vice President">Vice President</option>
+                              <option value="Director">Director</option>
+                              <option value="Manager">Manager</option>
+                              <option value="Individual Contributor/Staff">Individual Contributor/Staff</option>
+                              <option value="Student">Student</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <label class="mktoLabel" for="Department">Department</label>
+                           <select type="text" name="data[5]" id="Department" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Department">
+                              <option value="" hidden="">Department</option>
+
+                              <option value="Developer">Developer</option>
+                              <option value="Engineer">Engineer</option>
+                              <option value="Data/Business Intelligence">Data/Business Intelligence</option>
+                              <option value="Software Architect">Software Architect</option>
+                              <option value="Solution/Systems/Software Architect">Solution/Systems/Software Architect
+                              </option>
+                              <option value="Information Technology">Information Technology</option>
+                              <option value="Finance">Finance</option>
+                              <option value="Operations">Operations</option>
+                              <option value="Security">Security</option>
+                              <option value="Marketing​/Sales">Marketing​/Sales</option>
+                              <option value="Database Administrator">Database Administrator</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           
+                           <input id="title" name="data[6]" type="text" required class="form-control"
+                              placeholder="Phone" / oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')">
+                        </div>
+                       
+                        <div class="form-group">
+                           <label class="mktoLabel" for="Country">Country</label>
+                          
+                           <select type="text" name="data[7]" id="Country" required class="form-control"
+                              oninvalid="this.setCustomValidity('Please fill in this field.')"
+                              oninput="this.setCustomValidity('')" placeholder="Country">
+                              <option value="" hidden="">Country</option>
+                              <option value="Canada">Canada</option>
+                           </select>
+                        </div>
+                       
+                        <div class="row">
+                           <div class="col-sm-1">
+                           </div>
+                           <div class="col-sm-11">
+                              <label for="optin1">
+                                 You will be able to access the e-book now and in a few days Microsoft will email you the requested content.
+                              </label>
+                           </div>
+                           <br><br>
+                           <div class="col-sm-1">
+                              <input type="checkbox" id="optin1" name="data[8]" value="vehicle1">
+                           </div>
+                           <div class="col-sm-11">
+                              <label for="optin1">
+
+                                 I would like information, tips, and offers about Solutions for Businesses and Organizations and other Microsoft products and services. To withdraw consent or manage your contact preferences, visit the <a style="color:black ;" href="https://account.microsoft.com/profile/permissions-link-request">Promotional Communications Manager.</a> <a style="color:black ;" href="https://privacy.microsoft.com/en-us/privacystatement">Privacy Statement.</a> 
+
+                           </div>
+                        </div>
+                       
+                        <input type="submit" name="submit" value="Submit" class="btn btn-block mt-4"
+                           style="background-color: #D90000; color:white;">
+                        
+                     </form>
+                  </div>
+               </div>
+               <span><span style="color: red;">*</span>required fields
+               </span>
+            </div>
+         </div>
+         <div class="col-sm-12 bg-light">
+            <div class="footer bg-light">
+               <p style="font-size: 12px; color:black;"><a
+                     href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/"
+                     style="color:black;">Trademarks</a> <a href="https://go.microsoft.com/fwlink/?LinkId=521839"
+                     style="color:black;">Privacy & Cookies</a></p>
+            </div>
+         </div>
+      </div>
+      <footer style="background-color:#1d1d1d; color: white; padding:25px;">
+         <div class="span12 center">
+            <br>
+            <center><small> Copyright © Martecedge <br> <a style="color: white;"
+                     href="https://martecedge.com/unsubscribe/" target="_blank"> Click here to Unsubscribe</a> | <a
+                     style="color: white;" href="https://martecedge.com/privacy-policy/" target="_blank"> Privacy
+                     Policy</a> <br></small></center>
+            <p align="left" style=" font-size: 13px; ">
+            </p>
+         </div>
+      </footer>
+      <script src="main.js"></script>
+   </body>
+
+</html>
